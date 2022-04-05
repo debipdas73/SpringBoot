@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+
+
+/* Bordered form */
+form {
+  border: 3px solid powderblue;
+  width:500px;
+  height:400px;
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 40%;
+  height:25px;
+  margin: 10px 25px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button1 {
+  background-color: #04AA6D;
+  color: red;
+ padding: 10px 10px;
+  
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+#b2 {
+  background-color: #008CBA;;
+  color: white;
+ 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+#b3 {
+  background-color: #008CBA;;
+  color: white;
+ 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+
+/* Add a hover effect for buttons */
+button1:hover {
+  opacity: 0.8;
+}
+
+#b2:hover {
+  opacity: 0.8;
+}
+#b3:hover {
+  opacity: 0.8;
+}
+
+
